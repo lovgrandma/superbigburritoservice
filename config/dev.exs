@@ -3,7 +3,7 @@ import Config
 # Configure your database
 config :burritos, Burritos.Repo,
   username: "postgres",
-  password: "postgres",
+  password: "admin",
   hostname: "localhost",
   database: "burritos_dev",
   show_sensitive_data_on_connection_error: true,
