@@ -1,0 +1,25 @@
+.burritoContainer {
+    margin: .5rem;
+    background: rgb(248, 248, 248);
+    border-radius: .5rem;
+    position: relative;
+}
+
+.burritoTitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.ingredientImg {
+    max-width: 300px;
+}
+
+.center {
+    text-align: center;
+}
+
+.addItemContainer {
+    position: absolute;
+    top: 2rem;
+    left: 1rem;
+}

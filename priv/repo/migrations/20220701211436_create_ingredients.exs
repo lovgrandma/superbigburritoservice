@@ -5,7 +5,8 @@ defmodule Burritos.Repo.Migrations.CreateIngredients do
     create table(:ingredients) do
       add(:name, :string)
       add(:pounds, :float)
-      add(:pricePerPound, :float) # Price added to value of product before sale
+      add(:pricePerUnit, :float)
+      add(:poundPerUnit, :float)
     end
   end
 end

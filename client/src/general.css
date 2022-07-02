@@ -1,0 +1,27 @@
+.button, .welcome {
+    color: white;
+    background: rgb(120, 120, 255);
+    box-shadow: 0 0 0 1px #45b3ff inset, 0 0 0 1px rgb(58 134 232 / 15%) inset, 1px 2px 0px 0px rgb(78 167 210 / 70%), 2px 3px 0px 0px rgb(105 194 238 / 40%), 1px 1px 0px 0px rgb(105 194 238 / 50%);
+    width: fit-content;
+    cursor: pointer;
+    padding: .125rem, .5rem;
+    font-weight: 600;
+    font-size: .8rem;
+    border: 1px solid rgb(154, 154, 255);
+}
+
+.welcome {
+    font-size: 1rem;
+    border-radius: 5rem;
+    padding: .25rem 1rem;
+}
+
+.welcome:hover {
+    background: rgb(100, 100, 255);
+}
+
+.promptText {
+    font-size: .85rem;
+    font-weight: 600;
+    padding: .25rem .5rem;
+}

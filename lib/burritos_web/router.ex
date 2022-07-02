@@ -15,9 +15,12 @@ defmodule BurritosWeb.Router do
   end
 
   scope "/", BurritosWeb do
-    pipe_through :browser
-    get "/heading", PageController, :index
+    pipe_through :api
+    post "/index", PageController, :index
+    post "/addingredient", PageController, :addIngredient
+    post "/removeingredient", PageController, :removeIngredient
   end
+
 
   # Other scopes may use custom stacks.
   # scope "/api", BurritosWeb do

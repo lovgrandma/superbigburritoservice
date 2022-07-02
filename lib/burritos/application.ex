@@ -15,7 +15,7 @@ defmodule Burritos.Application do
       # Start the PubSub system
       {Phoenix.PubSub, name: Burritos.PubSub},
       # Start the Endpoint (http/https)
-      BurritosWeb.Endpoint
+      BurritosWeb.Endpoint,
       # Start a worker by calling: Burritos.Worker.start_link(arg)
       # {Burritos.Worker, arg}
     ]
